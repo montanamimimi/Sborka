@@ -1,3 +1,5 @@
+const { Howl } = require('howler');
+
 let second = 10000000;
 let x;
 
