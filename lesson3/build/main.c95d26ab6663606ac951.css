@@ -1,0 +1,24 @@
+/*!**********************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./css/main.scss ***!
+  \**********************************************************************************************************/
+.gallery_name {
+  color: darkred;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cats-pic, .sound-div, .video-div {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background-color: #fffdea;
+}
+.cats-pic img, .sound-div img, .video-div img {
+  width: 300px;
+}
+.cats-pic h2, .sound-div h2, .video-div h2 {
+  padding-left: 20px;
+}
